@@ -1,0 +1,40 @@
+PODS:
+  - HLTNotification (0.2.4):
+    - HLTNotification/Core (= 0.2.4)
+    - HLTNotification/UIComponents (= 0.2.4)
+  - HLTNotification/Core (0.2.4)
+  - HLTNotification/UIComponents (0.2.4):
+    - HLTNotification/Core
+    - Masonry
+    - RNTimer
+    - SDWebImage/Core
+  - Kiwi (3.0.0)
+  - Masonry (1.1.0)
+  - RNTimer (0.0.1)
+  - SDWebImage/Core (5.5.2)
+
+DEPENDENCIES:
+  - HLTNotification (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kiwi
+    - Masonry
+    - RNTimer
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  HLTNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLTNotification: e95048a89e6d59eaa0b016251cc8e8fe848fb8ac
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RNTimer: d4109a8a977d8d7ac81a1115bd4abdfa3e71841b
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+
+PODFILE CHECKSUM: 88c716661f3962041bc2d3d450378a5d9aab7539
+
+COCOAPODS: 1.5.3
