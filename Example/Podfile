@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HLTNotification_Example' do
+  pod 'HLTNotification', :path => '../'
+
+  target 'HLTNotification_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
